@@ -48,10 +48,3 @@ I plan to scale HealthyMe into a production-grade application by adding the foll
 
 ---
 
-## 🛠️ Installation & Setup
-
-To run this project locally, follow these steps:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/healthyme-app.git
