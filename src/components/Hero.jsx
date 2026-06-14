@@ -11,9 +11,9 @@ export default function Hero() {
         {/* The Overlapping Salad Bowl Wrapper */}
         {/* On desktop, absolute positioning allows the image to break out of the green box */}
         <div className="relative z-10 w-72 h-72 sm:w-96 sm:h-96 
-          md:absolute md:w-[580px] md:h-[580px] lg:w-[660px] lg:h-[720px]
-          md:-right-[100px] lg:-left-[140px] 
-          transition-all duration-300"
+          md:absolute md:w-[580px] md:h-[580px] lg:w-[520px] lg:h-[600px]
+          md:-right-[100px] lg:-left-[10px] 
+          transition-all duration-300 mr-10"
         >
           {/* We use a high-quality Unsplash transparent-style salad plate */}
           <img 
@@ -27,7 +27,7 @@ export default function Hero() {
       {/* 2. RIGHT SIDE: Beige background with the headline and CTA button */}
       <div className="w-full md:w-[60%] bg-[#fbf9f4] flex flex-col justify-center items-start 
         /* Important:  creates spacing so the text doesn't overlap the salad bowl */
-        px-8 md:pl-45 lg:pl-48 md:pr-5 py-16 mt-8 md:mt-0 relative"
+        px-8 md:pl-45 lg:pl-48 md:pr-2 py-16 mt-8 md:mt-0 relative"
       >
 
 

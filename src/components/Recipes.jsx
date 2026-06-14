@@ -77,7 +77,7 @@ export default function Recipes() {
   );
 
   return (
-    <section className="py-16 px-6 bg-[#fbf9f4] max-w-full mx-auto flex flex-col items-center overflow-hidden">
+    <section className="py-12 md:py-16 px-6 bg-[#fbf9f4] max-w-full mx-auto flex flex-col items-center overflow-hidden">
       
       <h2 className="text-5xl font-serif font-bold text-[#204d37] mb-12">
         Our Recipes
